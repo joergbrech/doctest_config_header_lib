@@ -1,4 +1,4 @@
-#define DOCTEST_CONFIG_IMPLEMENTATION_IN_DLL
+#define DOCTEST_CONFIG_IMPLEMENT
 #include "doctest/doctest.h"
 
 int main(int argc, char** argv) {
