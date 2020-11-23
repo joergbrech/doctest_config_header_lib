@@ -1,7 +1,14 @@
 #define DOCTEST_CONFIG_IMPLEMENT
 #include "doctest/doctest.h"
 
+
+DOCTEST_SYMBOL_IMPORT void default_cpp_force_link();
+DOCTEST_SYMBOL_IMPORT void return42_cpp_force_link();
+
 int main(int argc, char** argv) {
+
+    default_cpp_force_link();
+    return42_cpp_force_link();
 
     doctest::Context context(argc, argv);
     int res = context.run();

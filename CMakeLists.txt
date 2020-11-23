@@ -16,7 +16,7 @@ if (build_tests)
     # download doctest as thirdparty dependency
     FetchContent_Declare(doctest
             GIT_REPOSITORY "https://github.com/onqtam/doctest"
-            GIT_TAG "2.4.1"
+            GIT_TAG "d5130f6d95f1e2c9b29d69cb2c0e8803232fb8f5"
     )
     FetchContent_MakeAvailable(doctest)
 
